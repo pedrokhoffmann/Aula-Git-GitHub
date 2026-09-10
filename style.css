@@ -4,9 +4,27 @@
     color: aliceblue;
 }
 
+header {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(2, 2, 2);
+    display: inline-block;
+    padding: 20px;
+    border-style: hidden;
+    border-radius: 50%;
+    background-color: bisque;
+}
+
+p {
+    text-align: left;
+    border-style: solid;
+    border-color: rgb(172, 166, 166);
+}
+
 body {
     background-color: rgb(61, 96, 78);
-    
 }
 
 article {
