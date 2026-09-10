@@ -1,4 +1,16 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
+    color: aliceblue;
+}
+
+body {
+    background-color: rgb(61, 96, 78);
+    
+}
+
+article {
+    text-align: center;
+    color: black;
+    border-style: dashed;
 }
