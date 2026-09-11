@@ -5,6 +5,7 @@
 }
 
 header {
+    background-color: rgb(10, 24, 10);
     text-align: center;
 }
 
@@ -17,10 +18,15 @@ h1 {
     background-color: bisque;
 }
 
+h2 {
+    text-align: center;
+}
+
 p {
-    text-align: left;
+    padding: 5px;
+    text-align: justify;
     border-style: solid;
-    border-color: rgb(172, 166, 166);
+    border-color: rgb(10, 10, 10);
 }
 
 body {
@@ -28,7 +34,21 @@ body {
 }
 
 article {
-    text-align: center;
-    color: black;
+    padding: 5px;
+    text-align: justify;
+    color: white;
+    border-color: black;
     border-style: dashed;
+}
+
+img {
+    padding-bottom: 20px;
+    width: 300px;
+    height: auto;
+}
+
+.foto-produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
