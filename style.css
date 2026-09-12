@@ -46,6 +46,14 @@ article {
     border-style: dashed;
 }
 
+.descricao article {
+    padding: 5px;
+    text-align: justify;
+    color: white;
+    border-color: black;
+    border-style: dashed;
+}
+
 img {
     padding-bottom: 20px;
     width: 300px;
@@ -56,4 +64,53 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.foto-produto-comprar{
+    border: 2px solid white;
+    padding: 0;
+    width: 700px;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.container-galeria {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    padding-top: 20px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.galeria img {
+    padding-bottom: 0;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto auto;
+}
+
+.comprar a {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: oblique;
+    color: black;
+    background-color: bisque;
+    padding: 5px;
 }
