@@ -22,11 +22,15 @@ h2 {
     text-align: center;
 }
 
-p {
+p.bio {
     padding: 5px;
     text-align: justify;
     border-style: solid;
     border-color: rgb(10, 10, 10);
+}
+
+p.ver_mais {
+    float: right;
 }
 
 body {
@@ -35,6 +39,7 @@ body {
 
 article {
     padding: 5px;
+    padding-bottom: 25px;
     text-align: justify;
     color: white;
     border-color: black;
