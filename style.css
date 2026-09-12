@@ -114,3 +114,141 @@ img {
     background-color: bisque;
     padding: 5px;
 }
+
+.carrinho {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.carrinho h2,
+.carrinho-intro {
+    text-align: center;
+}
+
+.resumo-carrinho,
+.formulario-compra fieldset {
+    padding: 15px;
+    border: 2px dashed black;
+    background-color: rgba(10, 24, 10, 0.35);
+}
+
+.resumo-carrinho h3 {
+    margin-top: 0;
+}
+
+.item-carrinho {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.item-carrinho[hidden] {
+    display: none;
+}
+
+.item-carrinho img {
+    width: 120px;
+    height: 90px;
+    padding: 0;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.item-carrinho h4 {
+    margin: 0 0 10px;
+}
+
+.preco-produto {
+    margin: 0 0 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.item-carrinho input,
+.formulario-compra input,
+.formulario-compra select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.item-carrinho input {
+    width: 80px;
+}
+
+.formulario-compra {
+    margin-top: 20px;
+}
+
+.formulario-compra fieldset {
+    margin-bottom: 15px;
+}
+
+.formulario-compra legend {
+    padding: 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.formulario-compra label {
+    display: block;
+    margin: 10px 0 4px;
+}
+
+.campos-linha {
+    display: grid;
+    grid-template-columns: 1fr 180px;
+    gap: 15px;
+}
+
+.total-carrinho {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px 5px;
+    color: black;
+    background-color: bisque;
+}
+
+.total-carrinho strong {
+    color: black;
+}
+
+.total-carrinho span {
+    color: black;
+}
+
+.formulario-compra button {
+    display: block;
+    margin: 15px auto 0;
+    padding: 10px 15px;
+    color: black;
+    background-color: bisque;
+    border: 1px solid black;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .campos-linha {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .item-carrinho img {
+        width: 90px;
+        height: 70px;
+    }
+
+    .total-carrinho {
+        flex-direction: column;
+    }
+}
